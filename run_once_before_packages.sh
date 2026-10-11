@@ -7,8 +7,9 @@ sudo pacman -Sy --needed \
   doggo \
   duf \
   git-delta \
-  python-hatch \
+  just \
   ncdu \
+  python-hatch \
   sd \
   tuicr \
   uv \
