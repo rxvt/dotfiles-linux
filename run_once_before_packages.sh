@@ -2,6 +2,7 @@
 set -euo pipefail
 
 sudo pacman -Sy --needed \
+  anki \
   bandwhich \
   direnv \
   doggo \
