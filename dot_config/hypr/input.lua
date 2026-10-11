@@ -61,5 +61,6 @@ hl.config({
     kb_layout = "us",
     kb_options = "shift:both_capslock_cancel,caps:escape,altwin:swap_alt_win",
     natural_scroll = true,
+    sensitivity = -0.8,
   }
 })
