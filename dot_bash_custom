@@ -1,0 +1,17 @@
+# Environment Variables
+export UV_MANAGED_PYTHON=1
+export UV_PYTHON_DOWNLOADS=1
+
+# Aliases
+alias ca='chezmoi apply'
+alias cad='chezmoi add'
+alias cat='bat'
+alias ccd='chezmoi cd'
+alias ce='chezmoi edit'
+alias cra='chezmoi re-add --verbose'
+alias cv='chezmoi verify'
+alias ffe='$EDITOR "$(ff)"'
+alias gp='git pull'
+alias gs='git status'
+alias lg='lazygit'
+alias ll='eza --long --icons auto'
