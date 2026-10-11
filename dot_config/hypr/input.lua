@@ -62,5 +62,9 @@ hl.config({
     kb_options = "shift:both_capslock_cancel,caps:escape,altwin:swap_alt_win",
     natural_scroll = true,
     sensitivity = -0.8,
-  }
+  },
+  cursor = {
+        -- Prevents the cursor from warping to window centers on focus changes
+        no_warps = true,
+  },
 })
