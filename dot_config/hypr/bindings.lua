@@ -37,3 +37,6 @@ o.bind("SUPER + ALT + F", "Full screen", hl.dsp.window.fullscreen({ mode = "full
 -- Remap toggle background transparency
 hl.unbind("SUPER + BACKSPACE")
 o.bind("SUPER + DELETE", "Toggle window transparency", "omarchy-hyprland-window-transparency-toggle")
+
+app_switcher = { style = "icons" }
+dofile("/home/shane/Work/workspaces/app_switcher.lua")
