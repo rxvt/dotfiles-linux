@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=Todoist
+Comment=Todoist
+Exec=omarchy-launch-webapp "https://app.todoist.com/app/today"
+Terminal=false
+Type=Application
+Icon=/home/shane/Documents/icons/todoist.svg
+StartupNotify=true
+StartupWMClass=chrome-app.todoist.com__app_today-Default
