@@ -1,0 +1,4 @@
+#!/usr/bin/bash
+set -euo pipefail
+
+git config --global init.defaultBranch main
