@@ -67,4 +67,12 @@ hl.config({
         -- Prevents the cursor from warping to window centers on focus changes
         no_warps = true,
   },
+  hl.device({
+    name = "apple-spi-trackpad",
+    sensitivity = -0.2,
+  }),
+  hl.device({
+    name = "apple-spi-keyboard",
+    kb_options = "shift:both_capslock_cancel,caps:escape",
+  })
 })
